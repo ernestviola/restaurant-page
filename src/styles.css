@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 body {
@@ -12,23 +13,58 @@ body {
   color: white;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 header {
   margin-top: 2%;
   background-color: rgb(242 191 123);
+  box-shadow: 2px 2px 4px #000000;
+}
+
+nav {
+  padding: 16px;
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  gap: 16px;
+
+}
+
+nav>button {
+  padding: 2px 12px;
+  font-size: 1.2em;
+  border-radius: 1.5em;
+  box-shadow: 2px 2px 4px #000000, -2px 2px 4px #000000;
+  border: 2px solid black;
+  transition: box-shadow .2s linear, transform .2s linear;
+}
+
+nav>button:hover {
+  box-shadow: -4px 4px #010101;
+  transform: translate(4px, -4px);
 }
 
 .hero {
+  margin-top: 2%;
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.hero__description {
-  max-width: 0 1 min(600px, 100%);
-  max-width: min(600px, 100%);
+  justify-content: center;
+  gap: 40px;
 }
 
 .hero>img {
-  max-width: min(600px, 100%);
+  width: 600px
+}
+
+.hero__description {
+  margin-top: 60px;
+  flex-shrink: 1;
+  width: 600px;
+}
+
+.hero__description>h1 {
+  font-size: 1.5em;
+  margin-bottom: 12px;
 }
