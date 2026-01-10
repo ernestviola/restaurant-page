@@ -29,7 +29,7 @@ const heroDescriptionHeader = document.createElement('h1');
 heroDescriptionHeader.innerText = 'Dine with us!';
 
 const heroDescriptionParagraph = document.createElement('p');
-heroDescriptionParagraph.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora eligendi labore iusto, reprehenderit perferendis natus? Accusantium aperiam atque magnam nobis rem voluptatibus, harum corrupti velit, quo earum, nostrum inventore voluptas ut. Est, eveniet natus. Fuga iste explicabo cumque voluptatem aliquid saepe animi perspiciatis et doloribus ut maiores, totam laborum facere hic possimus consequatur eum voluptate laboriosam nulla quidem cum recusandae labore? Molestiae adipisci eos repellendus rerum atque dolor deserunt saepe facere fuga sunt ducimus reiciendis voluptatem fugit aliquid exercitationem eligendi nesciunt optio, omnis perspiciatis corrupti dolores officia. Id, tempora doloribus dolore inventore eligendi corrupti debitis ab illum necessitatibus sit possimus beatae aliquid nostrum ratione placeat quod vero facere nam, corporis quaerat error perspiciatis cum velit aliquam. Aperiam, saepe modi?';
+heroDescriptionParagraph.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora eligendi labore iusto, reprehenderit perferendis natus? Accusantium aperiam atque magnam nobis rem voluptatibus, harum corrupti velit, quo earum, nostrum inventore voluptas ut. Est, eveniet natus. Fuga iste explicabo cumque voluptatem aliquid saepe animi perspiciatis et doloribus ut maiores, totam laborum facere hic possimus consequatur eum voluptate laboriosam nulla quidem cum recusandae labore? Molestiae adipisci eos repellendus rerum atque dolor deserunt saepe facere fuga sunt ducimus reiciendis voluptatem fugit aliquid exercitationem eligendi nesciunt optio, omnis perspiciatis corrupti dolores officia.';
 
 heroDescription.appendChild(heroDescriptionHeader);
 heroDescription.appendChild(heroDescriptionParagraph);
@@ -37,5 +37,6 @@ heroDescription.appendChild(heroDescriptionParagraph);
 hero.appendChild(img);
 hero.appendChild(heroDescription);
 
+const home = hero;
 
-export { hero };
+export default home;
