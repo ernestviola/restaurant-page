@@ -15,6 +15,9 @@
 
 import restaurantImg from '../images/restaurant.jpg';
 
+const home = document.createElement('div')
+home.className = 'home';
+
 const hero = document.createElement('div');
 hero.className = 'hero';
 
@@ -37,6 +40,6 @@ heroDescription.appendChild(heroDescriptionParagraph);
 hero.appendChild(img);
 hero.appendChild(heroDescription);
 
-const home = hero;
+home.appendChild(hero);
 
 export default home;

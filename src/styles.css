@@ -13,6 +13,12 @@ body {
   color: white;
 }
 
+#content {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -47,7 +53,6 @@ nav>button:hover {
 }
 
 .hero {
-  margin-top: 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
