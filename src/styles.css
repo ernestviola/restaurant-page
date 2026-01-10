@@ -16,7 +16,7 @@ body {
 #content {
   display: flex;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
 button:hover {
@@ -72,4 +72,39 @@ nav>button:hover {
 .hero__description>h1 {
   font-size: 1.5em;
   margin-bottom: 12px;
+}
+
+.menu {
+  background-color: rgb(254, 247, 217);
+  box-shadow: 2px 2px 4px #000000;
+  color: black;
+  width: 600px;
+  padding: 80px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__title {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.menu__item {
+  border-bottom: 2px solid black;
+  padding: 20px 0px;
+}
+
+.menu__item:last-child {
+  border-bottom: none;
+}
+
+.menu__item__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__item__description {
+  margin-top: 6px;
+  font-size: .8em;
 }
