@@ -18,4 +18,4 @@ homeNav.addEventListener('click', () => changePage(home));
 menuNav.addEventListener('click', () => changePage(menu));
 contactNav.addEventListener('click', () => changePage(contact));
 
-changePage(contact);
+changePage(home);

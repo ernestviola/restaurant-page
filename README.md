@@ -5,10 +5,13 @@ is an assignment found on [The Odin Project](https://www.theodinproject.com/less
 [Preview]
 
 ## Lessons
+In this assignment I tried pushing myself a bit with trying to create some responsive design. I noticed it's quite difficult without media queries so I'm looking forward to that lesson. I also tried doing something fancy with the nav and I was disappointed to see that mobile looks vastly different.
+
+This was also the first time using webpack and it kind of reminds me of React.
 
 ## Attributions
 
 Photo of the map is a screenshot from Google Maps.
 
-Photo by <a href="https://unsplash.com/@lycs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">LYCS Architecture</a> on <a href="https://unsplash.com/photos/brown-wooden-chairs-in-front-glass-top-desk-H77w4l3UWy4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by [LYCS Architecture](https://unsplash.com/@lycs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash.
       
